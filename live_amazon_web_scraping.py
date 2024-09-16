@@ -4,6 +4,9 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import time
+
+
+#link to the webpage your webpage is on
 site_url = ("https://www.amazon.com/Sony-WH-1000XM5-Canceling-Headphones-Hands-Free/dp/B09XS7JWHH/ref=sr_1_1_sspa"
             "?crid=RQK95AHV7W3U&dib=eyJ2IjoiMSJ9.3WsHXw5IKX8zh6PbdrakcxdH1zA7vK1vXVpgQD4nxdVLe4MIkA"
             "-pHXG9xx9McLgLmWDtdEV-6jwIE33VmXICnH0Um4S-Pducx6YSPzQEmKOusw"
