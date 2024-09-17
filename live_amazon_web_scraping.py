@@ -17,6 +17,7 @@ site_url = ("https://www.amazon.com/Sony-WH-1000XM5-Canceling-Headphones-Hands-F
 
 headers = {
         #get your header by going to thid link: http://myhttpheader.com/
+        #Then save in a JSON format here.
 }
 soup = BeautifulSoup(requests.get(site_url).text, "html.parser")
 name = soup.find(id="productTitle").text
